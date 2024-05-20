@@ -1,3 +1,3 @@
 setInterval(() => {
-    startTime = new Date().getTime()
-},250);
+  startTime = new Date().getTime();
+}, 250);
