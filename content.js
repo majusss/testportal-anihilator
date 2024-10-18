@@ -7,7 +7,6 @@ chrome.storage.local.get("state", function ({ state }) {
 });
 
 chrome.storage.local.get("time", function ({ time }) {
-  console.log(time);
   if (time) {
     const s = document.createElement("script");
     s.src = chrome.extension.getURL("timeScript.js");
