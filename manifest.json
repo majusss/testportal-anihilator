@@ -1,6 +1,6 @@
 {
-  "name": "anihilator",
-  "version": "3.5",
+  "name": "testportal-gemini",
+  "version": "1",
   "manifest_version": 2,
   "content_scripts": [
     {
@@ -13,10 +13,10 @@
     }
   ],
 
-  "web_accessible_resources": ["pageScript.js", "timeScript.js", "prompt.js"],
+  "web_accessible_resources": ["pageScript.js", "timeScript.js", "ai.js"],
   "browser_action": {
     "default_title": "Testportal Anihilator",
-    "default_popup": "popup.html"
+    "default_popup": "popup/index.html"
   },
   "permissions": ["storage"],
   "icons": {

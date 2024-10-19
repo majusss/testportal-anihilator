@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=vpn_key"
+    />
+  </head>
+  <body class="bg-surface-dark text-center w-[300px] px-3 py-5">
+    <h1 class="text-on-surface-dark font-bold text-2xl my-2">
+      Anti Tesportal with Gemini
+    </h1>
+    <div
+      class="bg-surface-container-dark w-full rounded-2xl p-4 m-auto flex flex-col items-center gap-4 px-5"
+    >
+      <div class="flex justify-between items-center w-full">
+        <label for="key">Key</label>
+        <input
+          id="key"
+          class="bg-surface-container-dark border-[1.7px] rounded-sm border-on-background-dark/30 focus:border-on-background-dark/70 px-3 py-1"
+          type="text"
+        />
+      </div>
+
+      <div class="flex justify-between w-full">
+        <label for="time">Freez time</label>
+        <input type="checkbox" id="time" />
+      </div>
+      <div class="flex justify-between w-full">
+        <label for="debug">Show logs</label>
+        <input type="checkbox" id="debug" />
+      </div>
+      <a
+        href="https://aistudio.google.com/app/apikey"
+        target="_blank"
+        class="flex items-center justify-center bg-primary-dark text-surface-container-dark w-fit px-3 py-1 rounded-full gap-2"
+      >
+        <span class="material-symbols-outlined">vpn_key</span>
+        Get Api Key
+      </a>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
